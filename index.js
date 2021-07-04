@@ -133,6 +133,12 @@ console.log(newString);
         var LastName = "Lawrence"
         firstLetterOfLastName = LastName[0]
         console.log(firstLetterOfLastName)
+
+        //String immutability
+        var myStr = "Jello World";
+        myStr = "Hello World";
+        console.log(myStr) 
+
         
         let a = 10;
         console.log(a);
