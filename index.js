@@ -103,7 +103,7 @@ console.log(newString);
         \t      tab
         \b      backspace
         \f      form feed
-         ****/
+        ****/
         //eg
         var myStr = "FirstLine\n\tSecondLine\nThirdLine"
         console.log(myStr)
@@ -112,12 +112,12 @@ console.log(newString);
         var ourStr = "I come first. " + "I come second.";
         console.log(ourStr);
 
-         //Concatenating strings with plus equals operator
+        //Concatenating strings with plus equals operator
         var myStr = "This is the first sentence. "
         myStr += "This is the second sentence."
         console.log(myStr)
 
-         //Concatenating strings with variables
+        //Concatenating strings with variables
         var myName = "Andre";
         var myStr = " My name is " + myName + " and i am well"
         console.log(myStr)
@@ -127,6 +127,12 @@ console.log(newString);
         var myStr = "Learning to code is ";
         myStr += someAdjective;
         console.log(myStr) 
+
+        //Find length of string
+        var firstLetterOfLastName = "";
+        var LastName = "Lawrence"
+        firstLetterOfLastName = LastName[0]
+        console.log(firstLetterOfLastName)
         
         let a = 10;
         console.log(a);
