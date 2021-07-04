@@ -170,6 +170,10 @@ console.log(newString);
         selectedColors[2] = 1; 
         console.log(selectedColors);
 
+        // Nested Arrays
+        var ourArray = [["the universe", 42], ["everything", 101010]];
+        console.log(ourArray)
+
 
 
 
