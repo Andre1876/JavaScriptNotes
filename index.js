@@ -174,6 +174,15 @@ console.log(newString);
         var ourArray = [["the universe", 42], ["everything", 101010]];
         console.log(ourArray)
 
+        // Access array data with indexes
+        var ourArray = [50,60,70];
+        var ourData = ourArray[0]
+        console.log(ourData)
+
+        
+
+
+
 
 
 
