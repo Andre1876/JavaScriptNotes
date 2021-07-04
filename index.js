@@ -145,7 +145,30 @@ console.log(newString);
         thirdLetterOfLastName = LastName[2]
         console.log(thirdLetterOfLastName)
 
-        
+        // bracket notation to find last character in string
+        var myLastName = "Lawrence"
+        var lastLetterOfLastName = myLastName[myLastName.length - 1];
+        console.log(lastLetterOfLastName)
+
+
+        // Word Blanks 
+        function worldBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+        var result = "";
+        result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the story";
+        return result;
+
+        }
+        console.log(worldBlanks("dog", "big", "ran", "quickly"));
+        console.log(worldBlanks("bike", "slow", "flew", "slowly"));
+
+        // store multiple values with arrays
+        var ourArray = ["Andre", 34];
+
+
+
+
+
+
         let a = 10;
         console.log(a);
 
