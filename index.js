@@ -162,7 +162,13 @@ console.log(newString);
         console.log(worldBlanks("bike", "slow", "flew", "slowly"));
 
         // store multiple values with arrays
-        var ourArray = ["Andre", 34];
+        var ourArray = ["July", 4, 7, 2021];
+        console.log(ourArray)
+
+
+        let selectedColors =['red', 'black'];
+        selectedColors[2] = 1; 
+        console.log(selectedColors);
 
 
 
@@ -236,9 +242,7 @@ console.log(newString);
     //Arrays
 
     //Array eg
-    let selectedColors =['red', 'black'];
-    selectedColors[2] = 1; 
-    console.log(selectedColors);
+   
 
     //Function
 
