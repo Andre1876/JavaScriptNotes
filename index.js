@@ -139,6 +139,12 @@ console.log(newString);
         myStr = "Hello World";
         console.log(myStr) 
 
+        // bracket notation to find NTH character in string
+        var thirdLetterOfLastName = "";
+        var LastName = "Lawrence"
+        thirdLetterOfLastName = LastName[2]
+        console.log(thirdLetterOfLastName)
+
         
         let a = 10;
         console.log(a);
