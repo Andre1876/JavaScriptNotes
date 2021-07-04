@@ -6,6 +6,128 @@ console.log(newString);
 
         // This is my first JavaScript code!
 
+        // adding numbers 
+        var sum = 10 + 10;
+        console.log(sum);
+
+        // subtracting number
+        var difference = 45 - 33;
+        console.log(difference);
+
+        //multiplying number
+        var product = 8 * 10;
+        console.log(product);
+
+        //dividing numbers
+        var quotient = 66 / 10;
+        console.log(quotient);
+
+        // incrementing numbers
+        var myVar =87;
+        myVar = myVar + 1;
+        console.log(myVar)
+           //or
+        var myVar =87;
+        myVar++;
+        console.log(myVar)
+
+         // decrementing numbers
+        var myVar = 12;
+        var myVar = myVar -1;
+        console.log(myVar)
+           //or 
+        var myVar = 11;
+        myVar--;
+        console.log(myVar)
+
+        // decimal numbers
+        var ourDecimal = 5.7 + 1.1;
+        console.log(ourDecimal)
+
+        // multiply decimals
+        var product = 3.0 * 2.5;
+        console.log(product)
+
+        // divide decimals
+        var quotient = 4.4 / 2.0;
+        console.log(quotient)
+
+        // finding a remainder
+        var remainder
+        remainder = 11 % 3;
+        console.log(remainder)
+
+
+        // compound assignment with augmented addition 
+        var d = 12;
+        d = d + 6;
+        console.log(d) 
+
+        // compound assignment with augmented subtraction
+        var d = 12;
+        d = d - 6;
+        console.log(d) 
+
+        // compound assignment with augmented multiplying 
+        var d = 12;
+        d = d * 6;
+        console.log(d)  
+
+        // compound assignment with augmented division
+        var d = 12;
+        d = d / 6;
+        console.log(d)  
+
+        // declare string variables
+        var myFirstName = 'Andre';
+        console.log(myFirstName);
+
+        var myLastName = 'Lawrence';
+        console.log(myLastName);
+
+        // ESCAPING LITERAL QUOTES IN STRINGS
+        var myStr = "I am a \"double quoted\" string inside \"double quotes";
+        console.log(myStr)
+
+        // quoting strings with single quotes
+        var myStr =  'I am a "double quoted" string inside "double quotes"';
+        
+        // escape sequences in strings
+        /*****
+        CODE    OUTPUT
+        \'      single quote
+        \"      double quote
+        \\      backslash
+        \n      newline
+        \r      carriage return
+        \t      tab
+        \b      backspace
+        \f      form feed
+         ****/
+        //eg
+        var myStr = "FirstLine\n\tSecondLine\nThirdLine"
+        console.log(myStr)
+
+        //Concatenating strings with plus operator
+        var ourStr = "I come first. " + "I come second.";
+        console.log(ourStr);
+
+         //Concatenating strings with plus equals operator
+        var myStr = "This is the first sentence. "
+        myStr += "This is the second sentence."
+        console.log(myStr)
+
+         //Concatenating strings with variables
+        var myName = "Andre";
+        var myStr = " My name is " + myName + " and i am well"
+        console.log(myStr)
+
+        //Appending variables to strings
+        var someAdjective = "worthwhile";
+        var myStr = "Learning to code is ";
+        myStr += someAdjective;
+        console.log(myStr) 
+        
         let a = 10;
         console.log(a);
 
@@ -21,12 +143,8 @@ console.log(newString);
     
 
         // VARIABLES
-        // Variables use to store data temporarily
-        // Cannot be a reserved keyword
-        // Should be meaningful 
-        // cannot start with a number
-        // Cannot contain a space or hyphen
-        // Are case-sensitive eg. firstName;
+
+        /* Variables use to store data temporarily, cannot be a reserved keyword, should be meaningful, Cannot start with a number, Cannot contain a space or hyphen */
         var max = 57
         var actual = max - 13
         var percentage = actual / max
@@ -96,10 +214,3 @@ console.log(newString);
     }
     console.log(square(2));
 
-
-    
-    Constants, Primitive Types ,Dynamic Typing 
-    Objects
-    Arrays
-    Functions
-    Types of Functions 
