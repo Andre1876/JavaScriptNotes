@@ -189,7 +189,16 @@ console.log(newString);
         var myData = myArray[2][1];
         console.log(myData)
 
-        //push()
+        //Manipulate arrays with push() 
+        var ourArray = ["Black", "J", "cat"];
+        ourArray.push(["happy", "joy"]);
+        console.log(ourArray) 
+
+         //Manipulate arrays with pop()
+        var ourArray = [1,2,3];
+        var removedFromOurArray =ourArray.pop();
+        console.log(ourArray) 
+
 
 
 
