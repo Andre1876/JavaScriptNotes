@@ -200,6 +200,17 @@ console.log(newString);
         console.log(ourArray) 
 
 
+        let man ={
+            Name: "Andre",
+            Age: 32,
+            Sex: "Male",
+            Location: "Sea",
+            Occupation: "Developer",
+        };
+        console.table(man);
+
+        
+
 
 
 
