@@ -199,7 +199,7 @@ console.log(newString);
         var removedFromOurArray =ourArray.pop();
         console.log(ourArray) 
 
-
+        //Use console.table() to log key:value pairs to the console instead of console.log()
         let man ={
             Name: "Andre",
             Age: 32,
@@ -208,6 +208,39 @@ console.log(newString);
             Occupation: "Developer",
         };
         console.table(man);
+
+        //Manipulate arrays with shift()
+        var ourArray = [1,2,3];
+        var removedFromOurArray =ourArray.shift();
+        console.log(ourArray) 
+
+        //Manipulate arrays with unshift()
+        var ourArray = ["Street", "J", "Cat"];
+        ourArray.shift();
+        ourArray.unshift("Happy");
+        console.log(ourArray)
+
+        //Shop list !!(i'm using table and not log)!! 
+        var myList = [["cereal", 3], ["milk",2], ["bananas", 3],["juice",2],["eggs",12]];
+        console.table(myList);
+
+        //Function
+
+        //Write reusable code with functions 
+        function ourReusableFunction() {
+            console.log("Hey World");
+        }
+        ourReusableFunction();
+        ourReusableFunction();
+        ourReusableFunction();
+
+       //Passing values to functions with arguments 
+        function ourFunctionWithArgs(a, b) {
+        console.log(a - b);
+        }
+        ourFunctionWithArgs(10, 5);
+        
+
 
         
 
