@@ -274,7 +274,7 @@ console.log(newString);
         }
         console.log(myOutfit()); 
 
-        //Eg function
+        //Eg function button
         function logSomething() {
         console.log(Math.random())
         }
